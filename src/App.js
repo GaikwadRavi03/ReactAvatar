@@ -5,11 +5,7 @@ import Avatar from './component/avatar/Avatar';
 function App() {
   return (
     <div className="App">
-      <h1>Wel-Come to Avatar World</h1>
-      <div >
-        <Avatar />
-      </div>
-      <button>click Here</button>
+      <Avatar />
     </div>
   );
 }

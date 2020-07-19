@@ -2,7 +2,7 @@ import React from 'react'
 
 function AvatarList(props) {
     return (
-        <div className='avatarStyle ma4 bg-light-pink dib pa4 tc'>
+        <div className='avatarStyle ma4 bg-light-pink dib grow shadow-4 pa4 tc'>
             <img src={`https://joeschmoe.io/api/v1/${props.name}`} alt='avatar' />
             <h1>{props.name}</h1>
             <p>{props.work}</p>
