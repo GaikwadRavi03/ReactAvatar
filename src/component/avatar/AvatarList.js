@@ -10,4 +10,4 @@ function AvatarList(props) {
     )
 }
 
-export default AvatarList
+export default AvatarList;

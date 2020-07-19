@@ -14,7 +14,6 @@ class Avatar extends Component {
         }
     }
 
-
     render() {
 
         const avatarArray = [
@@ -36,6 +35,7 @@ class Avatar extends Component {
                 work: 'Movies'
             }
         ]
+
         const avatarCard = avatarArray.map((avatar, i) => {
             return <AvatarList key={i} id={avatarArray[i].name} name={avatarArray[i].name} work={avatarArray[i].work} />
         })
